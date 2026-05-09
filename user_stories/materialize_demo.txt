@@ -1,0 +1,18 @@
+Register the sql table paper_manifest as a structured dataset called paper-manifest.
+
+Preview the paper-manifest dataset.
+
+Register a query dataset named recent-paper-manifest using:
+SELECT paper_id, publication_year, pdf_path
+FROM paper_manifest
+WHERE publication_year >= 2021
+ORDER BY publication_year, paper_id
+
+Can you preview it?
+
+Ok, now materialize it using pdf_path column into a dataset named recent-paper-pdfs.
+Then, check datasets are available in the system?
+
+Can you extract the title and authors of each of these recent papers, putting in a csv?
+
+Actually, can you put it in the sql database instead?

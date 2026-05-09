@@ -1,0 +1,6 @@
+
+
+I just put a PDF, an image, and a text file in testdata/multimodal-data/.
+Register it as a multimodal dataset named multimodal_test, run extraction
+across all modalities, then show me a brief summary of what was extracted
+from each one.
